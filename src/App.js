@@ -18,7 +18,7 @@ function App() {
           params={{
               "particles": {
                   "number": {
-                      "value": 80
+                      "value": 50
                 },
                 "size": {
                     "value": 3

@@ -3,28 +3,14 @@ import axios from 'axios'
 import { useState } from "react";
 
 const Contact=()=>{
-  const [state, setState] = useState({
-    first_name: '',
-    last_name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
-  const [result,setResult] = useState(null);
 
-    
   return (
     <>
 
     <div className="form-container" id="contact">
       <h2 className="about_header">Contact me</h2>
-      {result && (
-        <p className={`${result.success ? 'success' : 'error'}`}>
-        {result.message}
-        </p>
-        )}
-      <form  className="contact-form" method="post">
-        <input type="hidden" name="form-name" value="contact" /> 
+      <form  className="contact-form" method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact-form" /> 
         <div className="row">
             <div className="col-25">
               <label>First Name</label>

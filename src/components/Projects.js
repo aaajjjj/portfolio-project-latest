@@ -24,7 +24,7 @@ export default function Projects () {
     const classes = useStyles();
 
   return (
-    <div classname="allheader" id="project">
+    <div className="allheader" id="project">
     <h2 className="timeline_header"> Projects</h2>
     <div className="card_container">
     <Card className={classes.root}>

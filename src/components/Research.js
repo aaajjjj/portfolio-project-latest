@@ -23,7 +23,7 @@ export default function Research() {
   const classes = useStyles();
 
   return (
-    <div classname ="allheaders" id="research">
+    <div className ="allheaders" id="research">
     <h2 className="timeline_header">Ongoing Research</h2>
     <div className="card_container">
     <Card className={classes.root}>

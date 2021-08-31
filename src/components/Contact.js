@@ -37,7 +37,7 @@ const Contact=()=>{
               <label>First Name</label>
             </div>
             <div className="col-75">
-                <input id="first_name" name="first_name" value={state.first_name} type="text" placeholder=" Your first name"/><br/>
+                <input id="first_name" name="first_name"  type="text" placeholder=" Your first name"/><br/>
             </div>
         </div>
        
@@ -46,7 +46,7 @@ const Contact=()=>{
               <label>Last Name</label>
             </div>
               <div className="col-75">
-                 <input id="last_name" name="last_name" value={state.last_name} type="text" placeholder="Your last name" /><br/>
+                 <input id="last_name" name="last_name"  type="text" placeholder="Your last name" /><br/>
             </div>
         </div>
 
@@ -55,7 +55,7 @@ const Contact=()=>{
               <label>Email address</label>
             </div>
               <div className="col-75">
-                  <input id="email" name="email" value={state.email}  type="email" placeholder="Your email address" /><br/>
+                  <input id="email" name="email"   type="email" placeholder="Your email address" /><br/>
             </div>
         </div>
 
@@ -64,7 +64,7 @@ const Contact=()=>{
               <label>Subject</label>
               </div>
               <div className="col-75">
-                  <input id="subject" name="subject" value={state.subject}  type="text" placeholder="Subject" /><br/>
+                  <input id="subject" name="subject"  type="text" placeholder="Subject" /><br/>
             </div>
         </div>
         
@@ -73,7 +73,7 @@ const Contact=()=>{
               <label>Text Area</label>
             </div>
               <div className="col-75">
-                  <textarea id="message" name="message" value={state.message} type="text" placeholder="Message" /><br/>
+                  <textarea id="message" name="message"  type="text" placeholder="Message" /><br/>
             </div>
         </div>
 

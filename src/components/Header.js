@@ -5,24 +5,20 @@ import axios from 'axios'
 export default function Header() {
     const [posts,setPosts]=useState([])
     useEffect(()=>{
-        axios.get("http://quotes.stormconsultancy.co.uk/random.json")
-        .then(res =>{
-            console.log(res.data.quote)
-            setPosts(res.data.quote)
-        })
-        .catch(err=> 
-            console.log(err))
+        const Url="https://api.quotable.io/random"
+        const answer=fetch(Url)
+        .then(response=>response.json())
+        .then((data) => setPosts(data.content))
+        .catch(res=> console.log(res))
     },[]);
 
     const [posts1,setPosts1]=useState([])
     useEffect(()=>{
-        axios.get("http://quotes.stormconsultancy.co.uk/random.json")
-        .then(res =>{
-            console.log(res.data.author)
-            setPosts1(res.data.author)
-        })
-        .catch(err=> 
-            console.log(err))
+        const Url="https://api.quotable.io/random"
+        const answer=fetch(Url)
+        .then(response=>response.json())
+        .then((data) => setPosts1(data.author))
+        .catch(res=> console.log(res))
     },[]);
     
     

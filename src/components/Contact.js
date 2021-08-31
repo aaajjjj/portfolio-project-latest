@@ -15,13 +15,6 @@ const Contact=()=>{
     
   return (
     <>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="first_name" />
-      <input type="text" name="last_name" />
-      <input type="email" name="email" />
-      <input type="text" name="subject" />
-      <textarea name="message"></textarea>
-    </form>
 
     <div className="form-container" id="contact">
       <h2 className="about_header">Contact me</h2>
@@ -30,7 +23,7 @@ const Contact=()=>{
         {result.message}
         </p>
         )}
-      <form  className="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form  className="contact-form" method="post">
         <input type="hidden" name="form-name" value="contact" /> 
         <div className="row">
             <div className="col-25">

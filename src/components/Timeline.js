@@ -20,13 +20,13 @@ export default function Timeline(){
             <h3 className="vertical-timeline-element-title">Student Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Des Moines,IA </h4>
             <p id="style_tasks">
-            a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud and security solutions 
+            a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud and security solutions.
             </p>
             <p id="style_tasks">
-            b. Learn to evaluate, test, and coordinate information security policies, procedures, and systems
+            b. Learn to evaluate, test, and coordinate information security policies, procedures, and systems.
             </p>
             <p id="style_tasks">
-            c. Provide ongoing support and maintenance of enterprise-wide infrastructure, applications and processes
+            c. Provide ongoing support and maintenance of enterprise-wide infrastructure, applications and processes.
             </p>
         </VerticalTimelineElement>
 
@@ -59,13 +59,13 @@ export default function Timeline(){
             <h3 className="vertical-timeline-element-title">Teaching Assistant(<DiPython/><span id="style_and">&&</span><FaJava/>)</h3>
             <h4 className="vertical-timeline-element-subtitle">Drake University, Des Moines, IA</h4>
             <p id="style_tasks">
-            a. Provide supplemental instructions to students during the course
+            a. Provide supplemental instructions to students during the course.
             </p>
             <p id="style_tasks">
-            b. Guide students through idea generation for class and lab assignment
+            b. Guide students through idea generation for class and lab assignment.
             </p>
             <p id="style_tasks">
-            c. Adjust teaching style to the learning methods of each student
+            c. Adjust teaching style to the learning methods of each student.
             </p>
         </VerticalTimelineElement>
     
@@ -78,13 +78,13 @@ export default function Timeline(){
             <h3 className="vertical-timeline-element-title">Student Tech Support</h3>
             <h4 className="vertical-timeline-element-subtitle">Drake University, Des Moines, IA</h4>
             <p id="style_tasks">
-            a. Troubleshoot technology issues with faculty, students, and staffs via phone or walk-ins
+            a. Troubleshoot technology issues with faculty, students, and staffs via phone or walk-ins.
             </p>
             <p id="style_tasks">
-            b. Escalate issue to IT technicians as necessary
+            b. Escalate issue to IT technicians as necessary.
             </p>
             <p id="style_tasks">
-            c. Track escalated tickets to track progress and ensure completion
+            c. Track escalated tickets to track progress and ensure completion.
             </p>
         </VerticalTimelineElement>
 

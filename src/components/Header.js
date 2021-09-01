@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from 'react'
 import Typed from 'react-typed';
-import axios from 'axios'
 
 export default function Header() {
     const [posts,setPosts]=useState([])

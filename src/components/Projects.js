@@ -51,7 +51,7 @@ export default function Projects () {
       <CardActions>
         <Button size="small" color="primary">
           <GitHubIcon
-          onClick={() => window.open('https://www.Linkedin.com')}
+          onClick={() => window.open('https://memories2020.netlify.app')}
           />
         </Button>
       </CardActions> 
@@ -79,7 +79,7 @@ export default function Projects () {
       <CardActions>
         <Button size="small" color="primary">
           <GitHubIcon
-          onClick={() => window.open('https://www.Linkedin.com')}
+          onClick={() => window.open('https://github.com/ajalrc/iowa_covid19_cases')}
           />
         </Button>
       </CardActions>

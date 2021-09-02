@@ -18,7 +18,8 @@ export default function Timeline(){
             icon={<FaCode/>}
         >
             <h3 className="vertical-timeline-element-title">Student Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Des Moines,IA </h4>
+            <h5 className="vertical-timeline-element-subtitle">Wellmark Blue Cross and Blue Shield, Part-time </h5>
+            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
             a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud and security solutions.
             </p>
@@ -37,7 +38,8 @@ export default function Timeline(){
             icon={<FaCode/>}
         >
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Johnston,IA </h4>
+            <h5 className="vertical-timeline-element-subtitle">Corteva Agriscience, Full-time </h5>
+            <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
             <p id="style_tasks">
             a. Implementing AWS cloud resources, computing infrastructure and web technoglogies to develop and deploy RESTful services. 
             </p>
@@ -57,7 +59,8 @@ export default function Timeline(){
             icon={<FaCode/>}
         >
             <h3 className="vertical-timeline-element-title">Teaching Assistant(<DiPython/><span id="style_and">&&</span><FaJava/>)</h3>
-            <h4 className="vertical-timeline-element-subtitle">Drake University, Des Moines, IA</h4>
+            <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
+            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
             a. Provide supplemental instructions to students during the course.
             </p>
@@ -76,7 +79,8 @@ export default function Timeline(){
             icon={<GiAutoRepair/>}
         >
             <h3 className="vertical-timeline-element-title">Student Tech Support</h3>
-            <h4 className="vertical-timeline-element-subtitle">Drake University, Des Moines, IA</h4>
+            <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
+            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
             a. Troubleshoot technology issues with faculty, students, and staffs via phone or walk-ins.
             </p>

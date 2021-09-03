@@ -8,7 +8,16 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Research from "./components/Research"
 import Contact from "./components/Contact"
+import $ from 'jquery'
 
+var width=$(document).width();
+var num_nb;
+if (width>768){
+        num_nb = Math.round(Math.sqrt(width * 4));
+    }else{
+        num_nb = Math.round(Math.sqrt(width * 1));
+    }
+console.log(num_nb)
 
 function App() {
   return (
@@ -18,7 +27,7 @@ function App() {
           params={{
               "particles": {
                   "number": {
-                      "value": 50
+                      "value": num_nb
                 },
                 "size": {
                     "value": 3

@@ -28,7 +28,7 @@ export default function Header() {
                 <Typed
                 className="typed-text"
                 strings={[
-                    'Welcome to my page AWESOME PEOPLE']}
+                    "Let's build something great."]}
                     typeSpeed={40}
                     backSpeed={50}
                     loop />

@@ -17,7 +17,7 @@ export default function Timeline(){
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaCode/>}
         >
-            <h3 className="vertical-timeline-element-title">Student Intern</h3>
+            <h3 className="vertical-timeline-element-title">Cloud Operations Intern</h3>
             <h5 className="vertical-timeline-element-subtitle">Wellmark Blue Cross and Blue Shield, Part-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">

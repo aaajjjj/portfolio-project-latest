@@ -40,8 +40,9 @@ export default function Research() {
             Mathematical  and Computation modeling of COVID-19 Spreading and Dynamics in Iowa
           </Typography>
           <Typography variant="body3" color="textPrimary" component="p" id="style_tasks">
-            My research models the optimal way of vaccination supply to end the disease as soon as possible.
-          This research would also fill the gap for the data that is still inadequate/ insufficient. We can also see verify if there might be some flaws in the data.
+            My research models the optimal way of vaccination supply to end the disease as soon as possible. I am updating the model to include the latest mutation in the Corona virus
+            alongside the need of booster. I am working to publish this research in undergraduate research journals.
+            This research would also fill the gap for inadequate/incomplete data and can verify if there might be some flaws in the data.
           </Typography>
         </CardContent>
       </CardActionArea>

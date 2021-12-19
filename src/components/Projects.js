@@ -75,7 +75,7 @@ export default function Projects () {
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
             This application was created to share a compliment to your loved ones. It was created using the Twilio API, Javascript and Vue. 
-            The number of the receiver has to be verified and the sendor needs a Twilio Account to use this web application. The receiver will
+            The number of the receiver has to be verified and the sender needs a Twilio Account to use this web application. The receiver will
             receive a message from the number provided from Twilio. 
           </Typography>
         </CardContent>

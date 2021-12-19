@@ -1,6 +1,6 @@
 import React from 'react'
 import { Picture } from 'react-responsive-picture';
-import Ab_pic from "../media/About.jpg"
+import Ab_pic from "../media/about_new.jpg"
 
 export default function About () {
     return (

@@ -43,9 +43,9 @@ export default function Projects () {
             Face Mask Detector
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
-            This application was created as a final project for my indenpendent study in Machine Leanring and
-            Neural Networks. This detector uses preexisting face detection models to detect the presence of
-            masks. Masked and unamsked images were used to train the mdel and output the
+            This application was created as a final project for my independent study in Machine Leanring and
+            Neural Networks. This detector uses pre-existing face detection models to detect the presence of
+            masks. Masked and unmasked images were used to train the model and output the
             presence of masks in a given image. Live stream can also be done for mask detection. Please look at the
             code in github to see in more details.
           </Typography>
@@ -104,7 +104,8 @@ export default function Projects () {
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
             This application gives you the real time mapped data of the Infected, Recovered, and Death population in Iowa. You can see your safety based on which county are you currently located in.
-             You can zoom in the map for more clarity.(Source: The map was created using geopandas and matplotlib in spyder and integrated in Django.)
+             You can zoom in the map for more clarity.
+             <p>(Source: The map was created using geopandas and matplotlib in spyder and integrated in Django.)</p>
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -48,7 +48,7 @@ export default function Research() {
       <CardActions>
         <Button size="large" color="primary">
           <FaResearchgate size={30}
-          onClick={() => window.open('https://drakeedu-my.sharepoint.com/:p:/g/personal/ajal_rc_drake_edu/Eec0eE7_dwRBilzwoyeEV3wBi6uRMPSrSwjC8Gy7U6Kf3g?e=Wgrrsf')}
+          onClick={() => window.open('https://drakeedu-my.sharepoint.com/:p:/g/personal/ajal_rc_drake_edu/Eec0eE7_dwRBilzwoyeEV3wBi6uRMPSrSwjC8Gy7U6Kf3g?e=xmJ0hR')}
           />
         </Button>
       </CardActions> 

@@ -43,11 +43,11 @@ export default function Projects () {
             Face Mask Detector
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
-            This application was created as a final project for my indenpendent study in Machine Leanring with
-            neural networks. This detector used preexisting face detection model to detect the presence of
-            masks. A lot of online images were used with or without masks to train the mdel and output the
-            presence of masks in a given image and can also live stream the mask detection. Please look at the
-            code in github to see more details.
+            This application was created as a final project for my indenpendent study in Machine Leanring and
+            Neural Networks. This detector uses preexisting face detection models to detect the presence of
+            masks. Masked and unamsked images were used to train the mdel and output the
+            presence of masks in a given image. Live stream can also be done for mask detection. Please look at the
+            code in github to see in more details.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -75,9 +75,8 @@ export default function Projects () {
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
             This application was created to share a compliment to your loved ones. It was created using the Twilio API, Javascript and Vue. 
-            The number of the receiver has to be verified and the sendor needs a Twilio Account to use this web application. 
-
-            
+            The number of the receiver has to be verified and the sendor needs a Twilio Account to use this web application. The receiver will
+            receive a message from the number provided from Twilio. 
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -104,7 +103,7 @@ export default function Projects () {
             COVID Locator
           </Typography>
           <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
-            This application gives you the real time mapped data of the Infected, Recovered,and Death population in Iowa. You can see your safety based on which county are you currently located in.
+            This application gives you the real time mapped data of the Infected, Recovered, and Death population in Iowa. You can see your safety based on which county are you currently located in.
              You can zoom in the map for more clarity.(Source: The map was created using geopandas and matplotlib in spyder and integrated in Django.)
           </Typography>
         </CardContent>

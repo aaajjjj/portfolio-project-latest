@@ -45,7 +45,7 @@ export default function Timeline(){
             a. Implemented AWS cloud resources, computing infrastructure and web technoglogies to develop and deploy RESTful services. 
             </p>
             <p id="style_tasks">
-            b. Learned and used different databases and made necessary connection to the cloud resources and backend connection to existing applications.
+            b. Learned and used different databases and made necessary connection to the cloud resources and backend to existing applications.
             </p>
             <p id="style_tasks">
              c. Worked to add new features to existing softwares and applications alongside intense testing and production deployment.
@@ -63,7 +63,7 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Provided supplemental instructions to students during the course.
+            a. Provided supplement instructions to students during the course.
             </p>
             <p id="style_tasks">
             b. Guided students through idea generation for class and lab assignments.

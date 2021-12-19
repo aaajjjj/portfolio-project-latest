@@ -187,6 +187,7 @@ q::after {
 .row > .column1{
     float: left;
     width: 50%;
+    image-rendering: pixelated;
 }
 
 .row > .column2{

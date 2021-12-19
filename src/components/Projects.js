@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Complimentor from "../media/Complimentor.JPG";
 import Covid_Iowa from "../media/Covid_Iowa.JPG"
+import mask_nomask from "../media/mask_nomask.jpg"
 
 const useStyles = makeStyles({
 
@@ -27,6 +28,38 @@ export default function Projects () {
     <div className="allheader" id="project">
     <h2 className="timeline_header"> Projects</h2>
     <div className="card_container">
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="240"
+          image={mask_nomask}
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h3" component="h3">
+            Face Mask Detector
+          </Typography>
+          <Typography variant="body3" color="textSecondary" component="p" id="style_tasks">
+            This application was created as a final project for my indenpendent study in Machine Leanring with
+            neural networks. This detector used preexisting face detection model to detect the presence of
+            masks. A lot of online images were used with or without masks to train the mdel and output the
+            presence of masks in a given image and can also live stream the mask detection. Please look at the
+            code in github to see more details.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          <GitHubIcon
+          onClick={() => window.open('https://github.com/ajalrc/mask_detection')}
+          />
+        </Button>
+      </CardActions> 
+    </Card>
+
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -55,8 +88,8 @@ export default function Projects () {
           />
         </Button>
       </CardActions> 
-
     </Card>
+
      <Card className={classes.root}>
       <CardActionArea>
         <CardMedia

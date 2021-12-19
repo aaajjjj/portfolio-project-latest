@@ -21,13 +21,14 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Wellmark Blue Cross and Blue Shield, Part-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud and security solutions.
+            a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud clusters/VMs including installation 
+            of necesary programs and applications.
             </p>
             <p id="style_tasks">
-            b. Learn to evaluate, test, and coordinate information security policies, procedures, and systems.
+            b. Create and run DevOps pipeline for deployent of cloud resources and source code.
             </p>
             <p id="style_tasks">
-            c. Provide ongoing support and maintenance of enterprise-wide infrastructure, applications and processes.
+            c. Write cloud scripts/code to analyze and automate the build processes for engineers and developers.
             </p>
         </VerticalTimelineElement>
 
@@ -41,13 +42,13 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Corteva Agriscience, Full-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
             <p id="style_tasks">
-            a. Implementing AWS cloud resources, computing infrastructure and web technoglogies to develop and deploy RESTful services. 
+            a. Implemented AWS cloud resources, computing infrastructure and web technoglogies to develop and deploy RESTful services. 
             </p>
             <p id="style_tasks">
-            b. Learn and utilizing best software engineering practices, Git,unit testing, CI/CD, and code reviews.
+            b. Learned and used different databases and made necessary connection to the cloud resources and backend connection to existing applications.
             </p>
             <p id="style_tasks">
-             c. Working in a team on open source projects.
+             c. Worked to add new features to existing softwares and applications alongside intense testing and production deployment.
             </p>
         </VerticalTimelineElement>
         
@@ -62,13 +63,13 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Provide supplemental instructions to students during the course.
+            a. Provided supplemental instructions to students during the course.
             </p>
             <p id="style_tasks">
-            b. Guide students through idea generation for class and lab assignment.
+            b. Guided students through idea generation for class and lab assignments.
             </p>
             <p id="style_tasks">
-            c. Adjust teaching style to the learning methods of each student.
+            c. Adjusted teaching style to the learning methods of each student.
             </p>
         </VerticalTimelineElement>
     
@@ -85,10 +86,10 @@ export default function Timeline(){
             a. Troubleshoot technology issues with faculty, students, and staffs via phone or walk-ins.
             </p>
             <p id="style_tasks">
-            b. Escalate issue to IT technicians as necessary.
+            b. Escalated issues to IT technicians as necessary.
             </p>
             <p id="style_tasks">
-            c. Track escalated tickets to track progress and ensure completion.
+            c. Track escalated tickets for progress and ensure completion.
             </p>
         </VerticalTimelineElement>
 

@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Complimentor from "../media/Complimentor.JPG";
 import Covid_Iowa from "../media/Covid_Iowa.JPG"
-import mask_nomask from "../media/mask_nomask.jpg"
+import mask_nomask from "../media/mask_nomask.png"
 
 const useStyles = makeStyles({
 

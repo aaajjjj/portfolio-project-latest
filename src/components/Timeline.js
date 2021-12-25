@@ -25,10 +25,10 @@ export default function Timeline(){
             of necesary programs and applications.
             </p>
             <p id="style_tasks">
-            b. Create and run DevOps pipeline for deployent of cloud resources and source code.
+            b. Create and run DevOps pipelines for deployent of cloud resources and source code.
             </p>
             <p id="style_tasks">
-            c. Write cloud scripts/code to analyze and automate the build processes for engineers and developers.
+            c. Write cloud scripts to analyze and automate the build processes for engineers and developers.
             </p>
         </VerticalTimelineElement>
 
@@ -42,14 +42,11 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Corteva Agriscience, Full-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
             <p id="style_tasks">
-            a. Implemented AWS cloud resources, computing infrastructure and web technoglogies to develop and deploy RESTful services. 
-            </p>
+            a. Implemented AWS cloud resources, computing infrastructure, and web technologies to develop and deploy RESTful services.            </p>
             <p id="style_tasks">
-            b. Learned and used different databases and made necessary connection to the cloud resources and backend to existing applications.
-            </p>
+            b. Learned and used different databases and made the necessary connections to the cloud resources and backend services to existing applications.            </p>
             <p id="style_tasks">
-             c. Worked to add new features to existing softwares and applications alongside intense testing and production deployment.
-            </p>
+            c. Worked to add new features to existing software and applications alongside intense testing and production deployment.            </p>
         </VerticalTimelineElement>
         
 
@@ -83,7 +80,7 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Troubleshoot technology issues with faculty, students, and staffs via phone or walk-ins.
+            a. Troubleshoot technology issues with faculty, students, and staff via phone or walk-ins.
             </p>
             <p id="style_tasks">
             b. Escalated issues to IT technicians as necessary.

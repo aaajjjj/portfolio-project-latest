@@ -21,14 +21,14 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Wellmark Blue Cross and Blue Shield, Part-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud clusters/VMs including installation 
-            of necesary programs and applications.
+            a. Write cloud scripts to analyze and automate the build processes for engineers and developers
             </p>
             <p id="style_tasks">
             b. Create and run DevOps pipelines for deployent of cloud resources and source code.
             </p>
             <p id="style_tasks">
-            c. Write cloud scripts to analyze and automate the build processes for engineers and developers.
+            c. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud clusters/VMs including installation 
+            of necesary programs and applications.
             </p>
         </VerticalTimelineElement>
 
@@ -42,11 +42,15 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Corteva Agriscience, Full-time </h5>
             <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
             <p id="style_tasks">
-            a. Implemented AWS cloud resources, computing infrastructure, and web technologies to develop and deploy RESTful services.            </p>
+            a. Implemented request-response lifecycle framework and RESTful APIs to obtain and analyze weather data. </p>
             <p id="style_tasks">
-            b. Learned and used different databases and made the necessary connections to the cloud resources and backend services to existing applications.            </p>
+            b. Integrated ETL (Extract, Transform and Load) tool to create well-formatted data for business intelligence.</p>
             <p id="style_tasks">
-            c. Worked to add new features to existing software and applications alongside intense testing and production deployment.            </p>
+            c. Built AWS cloud resources to run batch jobs using lambda functions for populating the PostgreSQL database.</p>
+            <p id="style_tasks">
+            d. Programmed forecasting maps to existing application using Mapbox and Redux to provide insights to farmers.</p>
+            <p id="style_tasks">
+            e. Modified existing codes to include best software engineering practices and quick delivery through CI/CD pipeline.</p>
         </VerticalTimelineElement>
         
 
@@ -60,13 +64,13 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Provided supplement instructions to students during the course.
+            a. Supplied supplemental instructions to students during the course including project ideas and additional content.
             </p>
             <p id="style_tasks">
             b. Guided students through idea generation for class and lab assignments.
             </p>
             <p id="style_tasks">
-            c. Adjusted teaching style to the learning methods of each student.
+            c. Adjusted teaching style to be flexible with the learning style of students to increase classroom productivity and problem-solving.
             </p>
         </VerticalTimelineElement>
     
@@ -80,13 +84,13 @@ export default function Timeline(){
             <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
             <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
             <p id="style_tasks">
-            a. Troubleshoot technology issues with faculty, students, and staff via phone or walk-ins.
+            a. Solved technological issues from hardware to software problems for faculties, students, and staff via phone or walk-ins.
             </p>
             <p id="style_tasks">
-            b. Escalated issues to IT technicians as necessary.
+            b. Escalated issues to senior IT technicians as necessary and learned from them for future references.
             </p>
             <p id="style_tasks">
-            c. Track escalated tickets for progress and ensure completion.
+            c. Tracked escalated tickets to check the progress and ensured completion.
             </p>
         </VerticalTimelineElement>
 

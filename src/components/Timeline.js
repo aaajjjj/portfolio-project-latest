@@ -5,96 +5,150 @@ import { DiPython } from 'react-icons/di';
 import {GiAutoRepair} from 'react-icons/gi';
 
 export default function Timeline(){
-    return(
-        <div id="job">
+    return (
+      <div id="job">
         <h2 className="timeline_header">Past and recent work experiences</h2>
         <VerticalTimeline>
-            <VerticalTimelineElement
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="Aug 2021 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FaCode/>}
-        >
-            <h3 className="vertical-timeline-element-title">Cloud Operations Intern</h3>
-            <h5 className="vertical-timeline-element-subtitle">Wellmark Blue Cross and Blue Shield, Part-time </h5>
-            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Cloud Operations Intern
+            </h3>
+            <h5 className="vertical-timeline-element-subtitle">
+              Wellmark Blue Cross and Blue Shield, Part-time{" "}
+            </h5>
+            <h6 className="vertical-timeline-element-subtitle">
+              Des Moines,IA{" "}
+            </h6>
             <p id="style_tasks">
-            a. Write cloud scripts to analyze and automate the build processes for engineers and developers
+              a. Leveraged the time and productivity for engineers and
+              developers by around 7 percent with automated scripts for code build processes.
             </p>
             <p id="style_tasks">
-            b. Create and run DevOps pipelines for deployent of cloud resources and source code.
+              b. Created and executed new DevOps pipelines for different teams
+              across organization for deploying code in different environments.
             </p>
             <p id="style_tasks">
-            c. Work under the direction of experienced Engineers/Analysts to maintain and upgrade cloud clusters/VMs including installation 
-            of necesary programs and applications.
+              c. Maximized the reliability to about 95 percent by helping multiple teams with
+               cloud infrastructure and trouble shooting errors.
             </p>
-        </VerticalTimelineElement>
+            <p id="style_tasks">
+              d. Fostered better time management and productivity for engineers by
+              providing them with the templates for the cloud specific resources
+              in Terraform.
+            </p>
+          </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2021 - Aug 2021"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FaCode/>}
-        >
-            <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
-            <h5 className="vertical-timeline-element-subtitle">Corteva Agriscience, Full-time </h5>
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Software Engineering Intern
+            </h3>
+            <h5 className="vertical-timeline-element-subtitle">
+              Corteva Agriscience, Full-time{" "}
+            </h5>
             <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
             <p id="style_tasks">
-            a. Implemented request-response lifecycle framework and RESTful APIs to obtain and analyze weather data. </p>
+              a. Reduced the complexity in business intelligence with well formatted data
+              using ETL (Extract, Transform and Load) process.
+            </p>
             <p id="style_tasks">
-            b. Integrated ETL (Extract, Transform and Load) tool to create well-formatted data for business intelligence.</p>
+              b. Gained higher productivity by atleast 7 percent with scheduled batch jobs
+               process in cloud for populating the database for our software.
+            </p>
             <p id="style_tasks">
-            c. Built AWS cloud resources to run batch jobs using lambda functions for populating the PostgreSQL database.</p>
+              c. Enhanced existing agriculatural application with forecasting maps to 
+              improve insights and decision making process for farmers.
+            </p>
             <p id="style_tasks">
-            d. Programmed forecasting maps to existing application using Mapbox and Redux to provide insights to farmers.</p>
-            <p id="style_tasks">
-            e. Modified existing codes to include best software engineering practices and quick delivery through CI/CD pipeline.</p>
-        </VerticalTimelineElement>
-        
+              d. Lowered bugs by around 25 percent with better coding practices
+              and intense testing process.
+            </p>
+            . and quick delivery through CI/CD pipeline.
+          </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Aug 2020-May 2021"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FaCode/>}
-        >
-            <h3 className="vertical-timeline-element-title">Teaching Assistant(<DiPython/><span id="style_and">&&</span><FaJava/>)</h3>
-            <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
-            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaCode />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Teaching Assistant(
+              <DiPython />
+              <span id="style_and">&&</span>
+              <FaJava />)
+            </h3>
+            <h5 className="vertical-timeline-element-subtitle">
+              Drake University, Part-time
+            </h5>
+            <h6 className="vertical-timeline-element-subtitle">
+              Des Moines,IA{" "}
+            </h6>
             <p id="style_tasks">
-            a. Supplied supplemental instructions to students during the course including project ideas and additional content.
+              a. Boosted students knowledge with supplemental instructions to
+              their result in the quizes and tests by atleast 14 percent.
             </p>
             <p id="style_tasks">
-            b. Guided students through idea generation for class and lab assignments.
+              b. Brainstormed ideas with students for their upcoming class
+              assignments and projects and challenged their thought process.
             </p>
             <p id="style_tasks">
-            c. Adjusted teaching style to be flexible with the learning style of students to increase classroom productivity and problem-solving.
+              c. Remodeled teaching style based on students' need to increase
+              classroom problem-solving skills with atleast 90 percent approval
+              rate.
             </p>
-        </VerticalTimelineElement>
-    
-        <VerticalTimelineElement
+            <p id="style_tasks">
+              d. Forstered an environment of growth and communication among
+              students resulting in feeling them from "ok" to "best" when it
+              came to collaboration.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Aug 2020-May 2021"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<GiAutoRepair/>}
-        >
-            <h3 className="vertical-timeline-element-title">Student Tech Support</h3>
-            <h5 className="vertical-timeline-element-subtitle">Drake University, Part-time</h5>
-            <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<GiAutoRepair />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Student Tech Support
+            </h3>
+            <h5 className="vertical-timeline-element-subtitle">
+              Drake University, Part-time
+            </h5>
+            <h6 className="vertical-timeline-element-subtitle">
+              Des Moines,IA{" "}
+            </h6>
             <p id="style_tasks">
-            a. Solved technological issues from hardware to software problems for faculties, students, and staff via phone or walk-ins.
+              a. Obtained University's IT services with above 95 percent
+              satisfaction among faculties, students, and staff.
             </p>
             <p id="style_tasks">
-            b. Escalated issues to senior IT technicians as necessary and learned from them for future references.
+              b. Collaborated with senior IT technicians for complex hardware
+              and software problems and documented the process to boost teams
+              productivity by 15% per semester.
             </p>
             <p id="style_tasks">
-            c. Tracked escalated tickets to check the progress and ensured completion.
+              c. Cultivated an environment of trust among students and faculties
+              with 90% plus reliability for our services.
             </p>
-        </VerticalTimelineElement>
-
-    </VerticalTimeline>
-    </div>
-    )
+            <p id="style_tasks">
+              d. Trained new student hires to ensure familiarity with the work
+              and better communication with the team.
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
+    );
 }

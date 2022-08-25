@@ -93,13 +93,13 @@ export default function Timeline() {
             process.
           </p>
           <p id="style_tasks">
-            b. Gained higher productivity by atleast 7 percent with scheduled
-            batch jobs process in cloud for populating the database for our
+            b. Gained higher productivity by at least 7 percent with scheduled
+            batch jobs process in the cloud for populating the database for our
             software.
           </p>
           <p id="style_tasks">
-            c. Enhanced existing agriculatural application with forecasting maps
-            to improve insights and decision making process for farmers.
+            c. Enhanced existing agricultural applications with forecasting maps
+            to improve insights and decision-process for farmers.
           </p>
           <p id="style_tasks">
             d. Lowered bugs by around 25 percent with better coding practices
@@ -125,18 +125,19 @@ export default function Timeline() {
           <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
           <p id="style_tasks">
             a. Boosted students knowledge with supplemental instructions to
-            improve their results in the quizes and tests by atleast 14 percent.
+            improve their results in the quizzes and tests by at least 14
+            percent.
           </p>
           <p id="style_tasks">
             b. Brainstormed ideas with students for their upcoming class
-            assignments and projects and challenged their thought process.
+            assignments and projects and challenged their thought processes.
           </p>
           <p id="style_tasks">
             c. Remodeled teaching style based on students' need to increase
-            problem-solving skills with atleast 90 percent approval rate.
+            problem-solving skills with at least 90 percent approval rate.
           </p>
           <p id="style_tasks">
-            d. Forstered an environment of growth and communication among
+            d. Fostered an environment of growth and communication among
             students resulting in feeling them from "ok" to "best" when it came
             to collaboration.
           </p>
@@ -156,8 +157,8 @@ export default function Timeline() {
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
           <p id="style_tasks">
-            a. Obtained University's IT services with above 95 percent
-            satisfaction among faculties, students, and staff.
+            a. Obtained above 95 percent satisfaction for University's IT
+            services among faculties, students, and staff.
           </p>
           <p id="style_tasks">
             b. Collaborated with senior IT technicians for complex hardware and

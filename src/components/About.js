@@ -20,16 +20,16 @@ export default function About() {
         management, machine learning, and many more, I found myself as a
         developer than a mechanical engineer. From that day onwards, I have
         promised myself to dedicate my career to creating high-end software
-        solutions that would add value to my clients, and businesses. I had
-        completed projects in languages like Python, Java, Javascript, and
-        Typescript and their popular frameworks like Node.js, React, Express and
-        Django. Similarly, I have used platforms like Docker, Azure DevOps,
-        Heroku, MongoDB, Datadog, and AWS in my projects and internships. My
-        focus right now is to be an excellent developer with huge exposure to
-        the cloud. My way of learning is "Learning by doing". If I need to learn
-        a new technology or language, I work on a project that uses it. It is a
-        harder way of learning, but that's what makes it more fun and memorable.
-        I believe Learning is the best investment that I could ever make in my
+        solutions that would add value to my team, and company. I had completed
+        projects in languages like Python, Java, Javascript, and Typescript and
+        their popular frameworks like Node.js, React, Express and Django.
+        Similarly, I have used platforms like Docker, Azure DevOps, Heroku,
+        MongoDB, Datadog, and AWS in my projects and internships. My focus right
+        now is to be an excellent developer with huge exposure to the cloud. My
+        way of learning is "Learning by doing". If I need to learn a new
+        technology or language, I work on a project that uses it. It is a harder
+        way of learning, but that's what makes it more fun and memorable. I
+        believe Learning is the best investment that I could ever make in my
         life.{" "}
       </div>
     </div>

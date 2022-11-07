@@ -28,17 +28,17 @@ export default function Timeline() {
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Des Moines,IA </h6>
           <p id="style_tasks">
-            a. Programming new features to existing external and internal facing
-            applications containing enrollments, claims and insurer data as per
-            the business goals.
+            a. Programming new features to new and existing external and
+            internal facing applications processing enrollments, claims and
+            insurer data as per the business goals.
           </p>
           <p id="style_tasks">
             b. Improving the user experience with decrement in data reload time
             and seemless transfer of claims and personal data.
           </p>
           <p id="style_tasks">
-            c. Ensuring the safety of insurer data with rigorous testing and web
-            security.
+            c. Assisting multiple teams with their production issues and getting
+            it fixed quickly to ensure consumer satisfaction.
           </p>
         </VerticalTimelineElement>
 
@@ -60,17 +60,17 @@ export default function Timeline() {
             by around 7 percent with automated scripts for code build processes.
           </p>
           <p id="style_tasks">
-            b. Created and executed new DevOps pipelines for different teams
-            across organization for deploying code in different environments.
+            b. Created and executed new DevOps pipelines for non-cloud teams
+            across organization for deploying their code in higher environments.
           </p>
           <p id="style_tasks">
-            c. Maximized the reliability to about 95 percent by helping multiple
-            teams with cloud infrastructure and trouble shooting errors.
+            c. Collaborated with internal teams with their cloud infrastructure
+            needs, scaling the existing ones and trouble shooting errors.
           </p>
           <p id="style_tasks">
-            d. Fostered better time management and productivity for engineers by
-            providing them with the templates for the cloud specific resources
-            in Terraform.
+            d. Fostered better time management and productivity for developers
+            by providing them with the templates for the cloud specific
+            resources.
           </p>
         </VerticalTimelineElement>
 
@@ -88,22 +88,23 @@ export default function Timeline() {
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Johnston,IA </h6>
           <p id="style_tasks">
-            a. Reduced the complexity in business intelligence with well
-            formatted weather data using ETL (Extract, Transform and Load)
-            process.
+            a. Enhanced existing agricultural applications with forecasting maps
+            on temperature, precipitation and temperature to improve insights
+            and decision-process for farmers.
           </p>
           <p id="style_tasks">
-            b. Gained higher productivity by at least 7 percent with scheduled
-            batch jobs process in the cloud for populating the database for our
-            software.
+            b. Reduced the complexity in business intelligence by formating the
+            raw weather data using ETL (Extract, Transform and Load) process and
+            storing in PostGreSQL database.
           </p>
           <p id="style_tasks">
-            c. Enhanced existing agricultural applications with forecasting maps
-            to improve insights and decision-process for farmers.
+            c. Optimized developers' time and efficiency by at least 7 percent
+            with scheduled batch jobs process in the cloud for populating our
+            PostGreSQL database.
           </p>
           <p id="style_tasks">
-            d. Lowered bugs by around 25 percent with better coding practices
-            and intense testing process.
+            d. Integrated monitoring tools like Datadog and modernized tests in
+            existing code to detect failures early on in production softwares.
           </p>
         </VerticalTimelineElement>
 
@@ -163,7 +164,7 @@ export default function Timeline() {
           <p id="style_tasks">
             b. Collaborated with senior IT technicians for complex hardware and
             software problems and documented the process to boost teams
-            productivity by 15% per semester.
+            productivity by 5% per semester.
           </p>
           <p id="style_tasks">
             c. Cultivated an environment of trust among students and faculties

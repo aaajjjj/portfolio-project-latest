@@ -45,13 +45,7 @@ export default function Research() {
                 component="p"
                 id="style_tasks"
               >
-                My research models the optimal way of vaccination supply to end
-                the disease as soon as possible. I am updating the model to
-                include the latest mutation in the Corona virus alongside the
-                need of booster. I am working to publish this research in
-                undergraduate research journals. This research would also fill
-                the gap for inadequate/incomplete data and can verify if there
-                might be some flaws in the data.
+                I conducted extensive research on modeling the optimal vaccination supply strategy to combat the disease effectively. The research included incorporating the latest mutation in the coronavirus and the need for booster shots into the model. Although my intention was to publish the findings in undergraduate research journals, the research phase was completed upon my graduation. The study addressed data gaps and potential flaws, contributing valuable insights towards ending the disease as soon as possible.
               </Typography>
             </CardContent>
           </CardActionArea>

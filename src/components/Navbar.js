@@ -12,14 +12,14 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-info">
         <div className="container">
           <Link
-            className="nav-link"
+            className="nav-link navbar-brand"
             activeClass="active"
             to="main"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
-            className="navbar-brand"
+           
           >
             <img
               className="logo"

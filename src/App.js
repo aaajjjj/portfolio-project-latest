@@ -8,26 +8,18 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Research from "./components/Research"
 import Contact from "./components/Contact"
-import $ from 'jquery'
 import { useCallback } from "react";
-
-import React from "react";
-import { useState, useEffect } from 'react';
-
 import { loadFull } from "tsparticles"
 
 var width=window.innerWidth;
-console.log(`Inner Width is ${width}`)
-console.log(`Document Width is ${$(document).width()}`)
 var num_nb;
 if (width>768){
-        num_nb = Math.round(Math.sqrt(width * 4));
-    }else{
         num_nb = Math.round(Math.sqrt(width * 1));
+    }else{
+        num_nb = Math.round(Math.sqrt(width * 0.5));
     }
 
 function App(){
-  const [numParticles, setNumParticles] = useState(50);
   const particlesInit = useCallback(async engine => {
     console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -47,7 +39,7 @@ const particlesLoaded = useCallback(async container => {
     init={particlesInit} loaded={particlesLoaded}
     className="particles-canvas"
           options={{
-            fpsLimit: 60,
+            fpsLimit: 20,
             interactivity: {
                 events: {
                     

@@ -12,10 +12,94 @@ export default function Timeline() {
     <div id="job">
       <h2 className="timeline_header">Past and recent work experiences</h2>
       <VerticalTimeline>
-      <VerticalTimelineElement
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Jul 2024 - Present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaCode />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineer – Enterprise Data Services
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Wellmark Blue Cross and Blue Shield, Full-time
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>
+            a. Designed and deployed the "Product Quote Flexibility (PQF)"
+            system using AWS CDK, Lambda, SQS, SNS, and API Gateway — replacing
+            legacy quoting platforms with modular, serverless architecture.
+          </p>
+          <p>
+            b. Created plan data ingestion workflows triggered from external
+            platforms, storing structured data for queryable access via REST
+            APIs with fallback support for legacy APIs.
+          </p>
+          <p>
+            c. Implemented 100% unit test coverage with Jest and enabled
+            integration testing using LocalStack to validate service behavior
+            pre-deployment.
+          </p>
+          <p>
+            d. Managed schema migrations with Flyway to maintain
+            version-controlled database infrastructure and eliminate manual
+            intervention.
+          </p>
+          <p>
+            e. Spearheading development of "Enterprise Group Service" — a
+            real-time, event-driven ELT pipeline that transforms legacy batch
+            workflows using S3 triggers, Kysely, and reconciliation APIs.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Jan 2024 - June 2024"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaCode />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Rotation 4: Cybersecurity Engineer
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Wellmark Blue Cross and Blue Shield, Full-time
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>
+            a. Built a phishing detection Outlook plugin with XML and
+            JavaScript; cut reporting time by 30%.
+          </p>
+          <p>
+            b. Deployed Python-based compliance scripts via Terraform to
+            automate cloud resource checks.
+          </p>
+         <p>c. Integrated log analysis pipelines to improve response time and reduce manual threat triaging by 30%.</p>
+          <p>d. Enabled role-based audit and visibility over cloud infrastructure by automating policy checks and reporting pipelines.</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="June 2023 - Dec 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaCode />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Rotation 3: Full Stack Engineer
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Wellmark Blue Cross and Blue Shield, Full-time
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+         <p>a. Modernized a legacy insurance demo site using Angular, fixing broken routes, improving component reusability, and ensuring mobile responsiveness.</p>
+          <p>b. Integrated Google Maps API to support real-time location search for providers and hospitals.</p>
+          <p>c. Automated biannual data feed ingestion, replacing manual file uploads and reducing data errors.</p>
+          <p>d. Improved collaboration with UI/UX team to refine wireframes, ensuring a seamless product rollout with minimal post-release bugs.</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
           date="Jan 2023 - June 2023"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaCode />}
@@ -24,41 +108,18 @@ export default function Timeline() {
             Rotation 2: Software Engineer
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Wellmark Blue Cross and Blue Shield, Full-time{" "}
+            Wellmark Blue Cross and Blue Shield, Full-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA </h6>
-          <p id="style_tasks">
-            a. Revolutionized the manual process of adding services, products, and rates, resulting in significant time and budget savings.
-          </p>
-          <p id="style_tasks">
-            b. Replaced complex store procedure SQL queries with a seamless and intuitive file upload functionality.
-          </p>
-          <p id="style_tasks">
-            c. Developed robust validation mechanisms to ensure the integrity of uploaded files.
-          </p>
-          <p id="style_tasks">
-          d. Enhanced the user interface with robust filtering capabilities for streamlined product management.
-          </p>
-          <p id="style_tasks">
-          e. Implemented a dedicated route in the middle layer to receive and store uploaded files.
-          </p>
-          <p id="style_tasks">
-          f. Introduced detailed error logging and reporting for proactive error management.
-          </p>
-          <p id="style_tasks">
-          g. Streamlined operations, reducing debugging time and enhancing overall productivity.
-          </p>
-          <p id="style_tasks">
-          h. Collaborated effectively with the team, aligning development tasks and meeting business requirements.
-          </p>
-
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>a. Automated plan, product, and rate uploads via Angular UI and AWS Lambda-triggered batch jobs, replacing MySQL scripts.</p>
+          <p>b. Introduced JSON-based middleware to validate and transform Excel uploads into structured records.</p>
+          <p>c. Enabled detailed error logging and inline feedback for end users, increasing productivity and accuracy.</p>
+          <p>d. Helped reduce processing time from 3 months to a few hours, saving $180K annually.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="June 2022 - December 2022"
+          date="June 2022 - Dec 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaCode />}
         >
@@ -66,25 +127,13 @@ export default function Timeline() {
             Rotation 1: Backend Software Engineer
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Wellmark Blue Cross and Blue Shield, Full-time{" "}
+            Wellmark Blue Cross and Blue Shield, Full-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA </h6>
-          <p id="style_tasks">
-            a. Transformed an incomplete Angular dashboard into a production-level application for agents to access 
-            and manage their book of business.
-          </p>
-          <p id="style_tasks">
-            b. Enhanced UI with filters, new queries, and export functionality for streamlined analysis and reporting.
-          </p>
-          <p id="style_tasks">
-            c. Developed middle-layer logic to seamlessly retrieve and process Medicare enrollment data from MySQL database.
-          </p>
-          <p id="style_tasks">
-          d. Implemented AWS Lambda functions to automate data updates and ensure database integrity.
-          </p>
-          <p id="style_tasks">
-          e. Conducted thorough testing to ensure a seamless user experience and optimal performance.
-          </p>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+           <p>a. Built a production-ready Angular dashboard for agents to view Medicare enrollment status and manage book of business.</p>
+          <p>b. Implemented backend with Lambda and MySQL to automate enrollment data retrieval and updates.</p>
+          <p>c. Added filtering, export, and data visualization features for agents to monitor plan-level engagement.</p>
+          <p>d. Conducted comprehensive testing and performance tuning to ensure reliability and scalability.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -97,21 +146,13 @@ export default function Timeline() {
             Cloud Operations Intern
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Wellmark Blue Cross and Blue Shield, Part-time{" "}
+            Wellmark Blue Cross and Blue Shield, Part-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA </h6>
-          <p id="style_tasks">
-            a. Boosted engineer and developer productivity by approximately 7% through the implementation of automated scripts for code build processes.
-          </p>
-          <p id="style_tasks">
-            b. Spearheaded the creation and execution of new DevOps pipelines, enabling non-cloud teams throughout the organization to deploy their code to higher environments seamlessly.
-          </p>
-          <p id="style_tasks">
-            c. Collaborated closely with internal teams to address cloud infrastructure needs, including scaling existing resources and troubleshooting errors.
-          </p>
-          <p id="style_tasks">
-            d. Streamlined time management and enhanced developer productivity by providing cloud-specific resource templates for efficient project execution.
-          </p>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+        <p>a. Automated AWS resource provisioning with reusable templates, reducing cloud deployment time by 7%.</p>
+          <p>b. Built Python scripts to streamline cloud build and deployment pipelines across multiple teams.</p>
+          <p>c. Managed SSL/TLS certificate renewals across AWS and on-prem environments with 0% downtime.</p>
+          <p>d. Partnered with DevOps teams to optimize infrastructure workflows and incident tracking.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -124,21 +165,13 @@ export default function Timeline() {
             Software Engineering Intern
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Corteva Agriscience, Full-time{" "}
+            Corteva Agriscience, Full-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Johnston, IA </h6>
-          <p id="style_tasks">
-            a. Enhanced existing agricultural applications by integrating forecasting maps for temperature, precipitation, and other crucial weather data, providing valuable insights to farmers for informed decision-making.
-          </p>
-          <p id="style_tasks">
-            b. Simplified business intelligence processes by implementing ETL (Extract, Transform, Load) techniques to format and store raw weather data in a robust PostGreSQL database
-          </p>
-          <p id="style_tasks">
-            c. Optimized developers' productivity by implementing scheduled batch jobs in the cloud, streamlining data population in the PostGreSQL database.
-          </p>
-          <p id="style_tasks">
-            d. Integrated monitoring tools like Datadog and modernized tests in existing code to proactively detect failures in production software.
-          </p>
+          <h6 className="vertical-timeline-element-subtitle">Johnston, IA</h6>
+          <p>a. Built weather forecasting maps using APIs for temperature, precipitation, and agronomic insights.</p>
+          <p>b. Developed ETL pipelines to transform raw weather data into PostgreSQL tables powering dashboards.</p>
+          <p>c. Implemented batch jobs in the cloud for continuous data sync and transformation.</p>
+          <p>d. Used Datadog to monitor data health and proactively detect pipeline failures.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -148,27 +181,16 @@ export default function Timeline() {
           icon={<FaCode />}
         >
           <h3 className="vertical-timeline-element-title">
-            Teaching Assistant(
-            <DiPython />
-            <span id="style_and">&&</span>
-            <FaJava />)
+            Teaching Assistant (<DiPython /> && <FaJava />)
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
             Drake University, Part-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA </h6>
-          <p id="style_tasks">
-            a. Provided supplemental instructions to students, resulting in a significant improvement of at least 14% in their quiz and test results.
-          </p>
-          <p id="style_tasks">
-            b. Facilitated brainstorming sessions with students, encouraging critical thinking and challenging their thought processes for upcoming assignments and projects.
-          </p>
-          <p id="style_tasks">
-            c. Adapted teaching methodologies based on students' needs, resulting in enhanced problem-solving skills and receiving an outstanding approval rate of at least 90%.
-          </p>
-          <p id="style_tasks">
-            d. Cultivated a collaborative environment that fostered growth and effective communication among students, transforming their experience from satisfactory to exceptional.
-          </p>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>a. Taught fundamentals of Python and Java through projects, labs, and office hours.</p>
+          <p>b. Boosted class performance by 14% through custom study sessions and assignments.</p>
+          <p>c. Facilitated critical thinking and problem-solving using real-world coding challenges.</p>
+          <p>d. Received 90%+ student approval for effective and supportive instruction.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -183,19 +205,11 @@ export default function Timeline() {
           <h5 className="vertical-timeline-element-subtitle">
             Drake University, Part-time
           </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA </h6>
-          <p id="style_tasks">
-            a. Achieved exceptional satisfaction ratings of above 95% from faculties, students, and staff for the university's IT services.
-          </p>
-          <p id="style_tasks">
-            b. Collaborated with senior IT technicians to troubleshoot and resolve complex hardware and software issues, documenting the process to enhance team productivity by 5% per semester.
-          </p>
-          <p id="style_tasks">
-            c. Fostered a culture of trust and reliability among students and faculties, resulting in consistently high service reliability ratings of 90% and above.
-          </p>
-          <p id="style_tasks">
-            d. Played a key role in training new student hires, ensuring their seamless integration into the team and facilitating effective communication.
-          </p>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>a. Provided IT support to students and faculty, achieving over 95% satisfaction in service feedback.</p>
+          <p>b. Collaborated with senior techs to troubleshoot and resolve system-wide issues.</p>
+          <p>c. Documented support processes to improve team onboarding and reduce resolution time.</p>
+          <p>d. Mentored new hires and contributed to maintaining high service reliability standards.</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

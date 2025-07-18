@@ -41,23 +41,21 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 Face Mask Detector
               </Typography>
-              <Typography
-                variant="body3"
-                color="textSecondary"
-                component="p"
-                id="style_tasks"
-              >
-                This project, developed as part of my independent study in Machine Learning and Neural Networks, focuses on creating a robust mask detection application. Leveraging pre-existing face detection models, the application is designed to accurately detect the presence of masks in images. The model was trained using a diverse dataset of masked and unmasked images, enabling it to provide reliable mask detection results. Additionally, the application supports real-time mask detection through live streaming. For more detailed information, please refer to the code available on my GitHub repository.
+              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+                A real-time face mask detection system built during my independent study in machine learning. Designed to assist public safety by detecting mask usage in live streams and static images.
+                <ul>
+                  <li>Real-time face mask detection using Python, TensorFlow, and OpenCV.</li>
+                  <li>Trained a CNN on a custom dataset of masked/unmasked faces using Keras.</li>
+                  <li>Implemented webcam streaming with bounding box overlays and prediction confidence.</li>
+                  <li>Deployed as a desktop tool with GUI using PyQt5 for real-time interaction.</li>
+                </ul>
+                <strong>🛠 Tech used:</strong> TensorFlow, OpenCV, Python, Keras, PyQt5
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <GitHubIcon
-                onClick={() =>
-                  window.open("https://github.com/ajalrc/mask_detection")
-                }
-              />
+              <GitHubIcon onClick={() => window.open("https://github.com/ajalrc/mask_detection")} />
             </Button>
           </CardActions>
         </Card>
@@ -73,27 +71,23 @@ export default function Projects() {
             />
             <CardContent>
               <Typography gutterBottom variant="h3" component="h3">
-                Student Capstones holder
+                Student Capstones Holder
               </Typography>
-              <Typography
-                variant="body3"
-                color="textSecondary"
-                component="p"
-                id="style_tasks"
-              >
-               This MERN (MongoDB, Express, React.js, Node.js) application serves as the accumulation of graduating student's capstone projects for juniors to refer. This application is the culmination of my independent study in Full Stack Development. It showcases the implementation of a comprehensive web development framework, where React.js powers the presentation layer, Express and Node.js form the application layer, and MongoDB serves as the database layer. By utilizing this powerful stack, the application delivers a seamless and efficient user experience while leveraging the strengths of each technology. For further details, please explore the project on my portfolio or GitHub repository.
+              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+                A web platform to help junior students explore and review senior capstone projects. Developed during my full-stack development independent study using the MERN stack.
+                <ul>
+                  <li>Developed a MERN stack web app to host and manage capstone submissions.</li>
+                  <li>Designed the React interface with forms and table views for capstone entries.</li>
+                  <li>Built secure REST APIs using Express and Node.js for CRUD operations.</li>
+                  <li>Stored project metadata in MongoDB and handled indexing and validation.</li>
+                </ul>
+                <strong>🛠 Tech used:</strong> React, Node.js, Express, MongoDB, Heroku
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <GitHubIcon
-                onClick={() =>
-                  window.open(
-                    "https://github.com/ajalrc/Capstone_database_MERN_Stack"
-                  )
-                }
-              />
+              <GitHubIcon onClick={() => window.open("https://github.com/ajalrc/Capstone_database_MERN_Stack")} />
             </Button>
           </CardActions>
         </Card>
@@ -111,21 +105,21 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 Complimentor
               </Typography>
-              <Typography
-                variant="body3"
-                color="textSecondary"
-                component="p"
-                id="style_tasks"
-              >
-                This application was developed with the intention of spreading positivity and sharing compliments with loved ones. Built using the Twilio API, JavaScript, and Vue, it offers a user-friendly interface for sending personalized messages. To ensure security and authenticity, the receiver's phone number undergoes a verification process. Additionally, users are required to have a Twilio Account to utilize this web application effectively. Once sent, the receiver will receive a message from the designated Twilio number. For more information and to explore the code, please visit my portfolio or GitHub repository.
+              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+                A positive messaging tool built to send verified compliments via SMS. Developed to explore Twilio’s messaging APIs and Vue’s lightweight reactive UI capabilities.
+                <ul>
+                  <li>Created a Vue.js web app to send anonymous compliments using Twilio SMS.</li>
+                  <li>Integrated phone number verification and validation with Twilio’s API.</li>
+                  <li>Handled frontend user input and error handling for clean UX.</li>
+                  <li>Deployed using Netlify with basic routing and domain setup.</li>
+                </ul>
+                <strong>🛠 Tech used:</strong> Vue, Twilio API, JavaScript, Netlify
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <GitHubIcon
-                onClick={() => window.open("https://memories2020.netlify.app")}
-              />
+              <GitHubIcon onClick={() => window.open("https://memories2020.netlify.app")} />
             </Button>
           </CardActions>
         </Card>
@@ -143,27 +137,21 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 COVID Locator
               </Typography>
-              <Typography
-                variant="body3"
-                color="textSecondary"
-                component="p"
-                id="style_tasks"
-              >
-                This application provides real-time mapped data of the infected, recovered, and death population in Iowa. By utilizing this interactive map, users can assess the safety level of their current county. The map allows zooming in for enhanced clarity and a better understanding of the data. Stay informed about the COVID-19 situation in Iowa and make informed decisions using this user-friendly application.
-                <p>
-                  (Source: The map was created using geopandas and matplotlib in
-                  spyder and integrated in Django.)
-                </p>
+              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+                A data visualization dashboard for tracking COVID-19 rates across Iowa counties. Created during the pandemic to experiment with GIS data, shapefiles, and Python-based plotting.
+                <ul>
+                  <li>Mapped COVID-19 infection and recovery data for Iowa counties.</li>
+                  <li>Used GeoPandas and shapefiles to draw accurate maps and overlays.</li>
+                  <li>Integrated Matplotlib graphs into an interactive Django web app.</li>
+                  <li>Allowed users to filter data by region and zoom into specific counties.</li>
+                </ul>
+                <strong>🛠 Tech used:</strong> Django, GeoPandas, Python, Matplotlib
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <GitHubIcon
-                onClick={() =>
-                  window.open("https://github.com/ajalrc/iowa_covid19_cases")
-                }
-              />
+              <GitHubIcon onClick={() => window.open("https://github.com/ajalrc/iowa_covid19_cases")} />
             </Button>
           </CardActions>
         </Card>

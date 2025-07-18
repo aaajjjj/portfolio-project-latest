@@ -187,15 +187,27 @@ q::after {
 .row > .column1{
     float: left;
     width: 50%;
-    image-rendering: pixelated;
 }
 
+.column1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* .about-image {
+  object-fit: cover;          
+  border-radius: 50%;         
+  max-height: 650px;
+} 
+*/
+
+
 .row > .column2{
-    float: right;
     width: 50%;
     align-items: center;
-    display: flex;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -212,9 +224,8 @@ q::after {
 
 @media(max-width: 768px) {
     .row > .column1{
-    width: 100%;
-    height: auto;
-
+            width: 100%;
+height: auto;
 }
 
     .row > .column2{

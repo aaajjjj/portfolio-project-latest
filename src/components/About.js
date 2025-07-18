@@ -1,28 +1,62 @@
-import React from "react";
 import { Picture } from "react-responsive-picture";
-import Ab_pic from "../media/About.jpg";
+import Ab_pic from "../media/my_photo.jpeg";
 
 export default function About() {
   return (
     <div className="row" id="about">
       <h2 className="about_header">About me</h2>
-      <Picture className="column1" src={Ab_pic} />
+      <Picture className="column1 about-image" src={Ab_pic} />
       <div className="column2">
-      Hi, I'm Ajal RC, a results-driven software engineer hailing from Nepal. With a background in mechanical engineering, I discovered my true passion for computer science and embarked on a transformative 
-      journey of self-learning. Today, with 2 years of industry experience, I bring a unique blend of technical expertise and a relentless drive to excel in the field of software engineering. <br/> <br/>
-      Throughout my college years, I pursued multiple independent studies inaddition to regular courses, delving into exciting areas such as machine learning, web development, and blockchain. I successfully applied 
-      Python's web3 library to 
-      create tokens, develop smart contracts, and test them on various blockchain testnets. Additionally, I leveraged MATLAB and Octave for machine learning projects, solving diverse challenges ranging
-       from spam email detection to image size reduction. Exploring the fascinating realm of artificial intelligence, I integrated face detection models to identify masks in images and live streams. <br/> <br/>
-       On the professional front, I've gained valuable experience through software engineering and cloud engineering internships. Currently, I am part of a prestigious rotational program, where I've 
-        excelled as both a back-end developer and a software developer, developing a product idea into a flushed production level application within a timespan of 6 months each. Notably, during my time at Corteva Agriscience, 
-        I developed weather forecasting maps that empowered farmers to make 
-        informed decisions based on accurate temperature and precipitation forecasts. I also streamlined the ETL process, transforming raw weather data into a structured format for seamless integration
-         with company applications. <br/> <br/>
-         Proficient in TypeScript/JavaScript, React, Angular, Node.js, and Python frameworks like Django and Flask, I thrive in full-stack development. Cloud technologies,
-          including AWS services, have become second nature to me. Furthermore, I have a strong foundation in database management and DevOps practices, ensuring robust and efficient software delivery.
-Driven by the ever-evolving nature of software engineering, I approach challenges with meticulous attention to detail and a calculated problem-solving mindset. I am motivated to continuously learn, 
-adapt, and contribute to the success of forward-thinking organizations. Let's connect and discuss how my passion for coding and diverse skill set can bring value to your team.{" "}
+          Hi, I’m <strong>Ajal RC</strong> — a software engineer passionate
+          about building secure, scalable, and testable systems using
+          cloud-native and event-driven architectures.
+          <br />
+          <br />
+          Originally from Nepal, I initially came to the U.S. to study
+          mechanical engineering and later explored physics due to scholarship
+          constraints. Over time, I transitioned my academic path and discovered
+          a strong passion for computing — ultimately majoring in Computer
+          Science and Mathematics, with Physics as a minor. Since then, I’ve
+          completed a competitive 2-year rotational engineering program and now
+          work full-time as a backend engineer on enterprise-scale AWS platforms
+          at Wellmark Blue Cross Blue Shield.
+          <br />
+          <br />
+          My journey spans internships, teaching roles, and impactful projects,
+          including:
+        <br></br>
+        <p>
+          <ul>
+            <li>
+              📦 Designed "Product Quote Flexibility (PQF)" — a modular plan
+              quoting system using AWS CDK, Lambda, SQS/SNS, and API Gateway
+              with full CI/CD and Jest testing.
+            </li>
+            <li>
+              🧩 Built event-driven ELT pipelines for real-time group data
+              ingestion and reconciliation using Kysely, S3, and Flyway.
+            </li>
+            <li>
+              🌍 Integrated weather forecasting APIs into AgTech dashboards
+              during my internship at Corteva Agriscience.
+            </li>
+            <li>
+              🔐 Developed phishing detection tools and AWS compliance scripts
+              as part of enterprise security initiatives.
+            </li>
+            <li>
+              🧠 Explored blockchain and AI independently — built Web3 smart
+              contracts and facial detection models with Python, Web3, and
+              MATLAB.
+            </li>
+          </ul>
+        </p>
+        I’m fluent in TypeScript, Node.js, Python, AWS, and PostgreSQL. I’m
+        driven by a problem-solving mindset and a passion for clean,
+        maintainable code.
+        <br />
+        <br />
+        Let’s connect and build something impactful together.
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ Personal portfolio site for Ajal RC — a React single-page app with sections fo
 
 ## Prerequisites
 
-- **Node 18+** (Node 26 recommended). Managed via [nvm](https://github.com/nvm-sh/nvm).
+- **Node 26** (minimum Node 18). Managed via [nvm](https://github.com/nvm-sh/nvm).
 - **npm** (comes with Node).
 
 ```bash
@@ -20,7 +20,7 @@ Personal portfolio site for Ajal RC — a React single-page app with sections fo
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.zshrc   # or restart terminal
 
-# Install and use Node 18 (minimum) or 26 (recommended)
+# Install Node 26
 nvm install 26
 nvm use 26
 ```

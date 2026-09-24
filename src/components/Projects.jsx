@@ -1,34 +1,25 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import Complimentor from "../media/Complimentor.JPG";
 import MERN from "../media/MERN.png";
 import Covid_Iowa from "../media/Covid_Iowa.JPG";
 import mask_nomask from "../media/mask_nomask.png";
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-    margin: 10,
-    minWidth: "33%",
-  },
-});
+const cardSx = { maxWidth: 345, margin: 1, minWidth: "33%" };
 
 export default function Projects() {
-  const classes = useStyles();
-
   return (
     <div className="allheader" id="project">
       <h2 className="timeline_header"> Projects</h2>
       <div className="card_container">
-        <Card className={classes.root}>
+        <Card sx={cardSx}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -41,7 +32,7 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 Face Mask Detector
               </Typography>
-              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+              <Typography variant="body2" color="text.primary" component="div" id="style_tasks">
                 A real-time face mask detection system built during my independent study in machine learning. Designed to assist public safety by detecting mask usage in live streams and static images.
                 <ul>
                   <li>Real-time face mask detection using Python, TensorFlow, and OpenCV.</li>
@@ -60,7 +51,7 @@ export default function Projects() {
           </CardActions>
         </Card>
 
-        <Card className={classes.root}>
+        <Card sx={cardSx}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -73,7 +64,7 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 Student Capstones Holder
               </Typography>
-              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+              <Typography variant="body2" color="text.primary" component="div" id="style_tasks">
                 A web platform to help junior students explore and review senior capstone projects. Developed during my full-stack development independent study using the MERN stack.
                 <ul>
                   <li>Developed a MERN stack web app to host and manage capstone submissions.</li>
@@ -92,7 +83,7 @@ export default function Projects() {
           </CardActions>
         </Card>
 
-        <Card className={classes.root}>
+        <Card sx={cardSx}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -105,11 +96,11 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 Complimentor
               </Typography>
-              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
-                A positive messaging tool built to send verified compliments via SMS. Developed to explore Twilio’s messaging APIs and Vue’s lightweight reactive UI capabilities.
+              <Typography variant="body2" color="text.primary" component="div" id="style_tasks">
+                A positive messaging tool built to send verified compliments via SMS. Developed to explore Twilio's messaging APIs and Vue's lightweight reactive UI capabilities.
                 <ul>
                   <li>Created a Vue.js web app to send anonymous compliments using Twilio SMS.</li>
-                  <li>Integrated phone number verification and validation with Twilio’s API.</li>
+                  <li>Integrated phone number verification and validation with Twilio's API.</li>
                   <li>Handled frontend user input and error handling for clean UX.</li>
                   <li>Deployed using Netlify with basic routing and domain setup.</li>
                 </ul>
@@ -124,7 +115,7 @@ export default function Projects() {
           </CardActions>
         </Card>
 
-        <Card className={classes.root}>
+        <Card sx={cardSx}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -137,7 +128,7 @@ export default function Projects() {
               <Typography gutterBottom variant="h3" component="h3">
                 COVID Locator
               </Typography>
-              <Typography variant="body2" color="textPrimary" component="div" id="style_tasks">
+              <Typography variant="body2" color="text.primary" component="div" id="style_tasks">
                 A data visualization dashboard for tracking COVID-19 rates across Iowa counties. Created during the pandemic to experiment with GIS data, shapefiles, and Python-based plotting.
                 <ul>
                   <li>Mapped COVID-19 infection and recovery data for Iowa counties.</li>

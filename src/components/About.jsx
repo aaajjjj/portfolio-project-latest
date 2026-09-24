@@ -1,13 +1,12 @@
-import { Picture } from "react-responsive-picture";
 import Ab_pic from "../media/my_photo.jpeg";
 
 export default function About() {
   return (
     <div className="row" id="about">
       <h2 className="about_header">About me</h2>
-      <Picture className="column1 about-image" src={Ab_pic} />
+      <img className="column1 about-image" src={Ab_pic} alt="Ajal RC" />
       <div className="column2">
-          Hi, I’m <strong>Ajal RC</strong> — a software engineer passionate
+          Hi, I'm <strong>Ajal RC</strong> — a software engineer passionate
           about building secure, scalable, and testable systems using
           cloud-native and event-driven architectures.
           <br />
@@ -16,7 +15,7 @@ export default function About() {
           mechanical engineering and later explored physics due to scholarship
           constraints. Over time, I transitioned my academic path and discovered
           a strong passion for computing — ultimately majoring in Computer
-          Science and Mathematics, with Physics as a minor. Since then, I’ve
+          Science and Mathematics, with Physics as a minor. Since then, I've
           completed a competitive 2-year rotational engineering program and now
           work full-time as a backend engineer on enterprise-scale AWS platforms
           at Wellmark Blue Cross Blue Shield.
@@ -24,7 +23,7 @@ export default function About() {
           <br />
           My journey spans internships, teaching roles, and impactful projects,
           including:
-        <br></br>
+        <br />
         <p>
           <ul>
             <li>
@@ -51,12 +50,12 @@ export default function About() {
             </li>
           </ul>
         </p>
-        I’m fluent in TypeScript, Node.js, Python, AWS, and PostgreSQL. I’m
+        I'm fluent in TypeScript, Node.js, Python, AWS, and PostgreSQL. I'm
         driven by a problem-solving mindset and a passion for clean,
         maintainable code.
         <br />
         <br />
-        Let’s connect and build something impactful together.
+        Let's connect and build something impactful together.
       </div>
     </div>
   );

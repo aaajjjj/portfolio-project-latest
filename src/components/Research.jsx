@@ -1,38 +1,29 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import { FaResearchgate } from "react-icons/fa";
 import research from "../media/research.JPG";
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 445,
-    margin: 10,
-    minWidth: "33%",
-  },
-});
+const cardSx = { maxWidth: 445, margin: 1, minWidth: "33%" };
 
 export default function Research() {
-  const classes = useStyles();
-
   return (
     <div className="allheaders" id="research">
       <h2 className="timeline_header">Ongoing Research</h2>
       <div className="card_container">
-        <Card className={classes.root}>
+        <Card sx={cardSx}>
           <CardActionArea>
             <CardMedia
               component="img"
-              alt="Contemplative Reptile"
+              alt="COVID-19 Research"
               height="240"
               image={research}
-              title="Contemplative Reptile"
+              title="COVID-19 Research"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h3">
@@ -40,8 +31,8 @@ export default function Research() {
                 Dynamics in Iowa
               </Typography>
               <Typography
-                variant="body3"
-                color="textPrimary"
+                variant="body2"
+                color="text.primary"
                 component="p"
                 id="style_tasks"
               >

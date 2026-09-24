@@ -1,20 +1,27 @@
-import React, { useState, useEffect } from 'react';
-import Typed from 'react-typed';
+import React, { useState, useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 export default function Header() {
   const [quote, setQuote] = useState('Loading quote...');
   const [author, setAuthor] = useState('');
+  const typedEl = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(typedEl.current, {
+      strings: ["Let's build something great."],
+      typeSpeed: 40,
+      backSpeed: 50,
+      loop: true,
+    });
+    return () => typed.destroy();
+  }, []);
 
   useEffect(() => {
     async function fetchQuote() {
       try {
         const res = await fetch('https://api.realinspire.live/v1//quotes/random');
-        if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`);
-        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        console.log(data)
-        // Adjust the path based on the actual JSON format returned
         setQuote(data[0].content || 'Unknown quote');
         setAuthor(data[0].author || 'Unknown author');
       } catch (err) {
@@ -23,20 +30,13 @@ export default function Header() {
         setAuthor('');
       }
     }
-
     fetchQuote();
   }, []);
 
   return (
     <div className="header-wraper" id="main">
       <div className="main-info">
-        <Typed
-          className="typed-text"
-          strings={["Let's build something great."]}
-          typeSpeed={40}
-          backSpeed={50}
-          loop
-        />
+        <span className="typed-text" ref={typedEl} />
         <div className="style_quotation">
           <p className="style_quote">
             <q>{quote}</q>

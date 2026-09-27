@@ -64,7 +64,7 @@ nav ul li{
 
 /******************For the header***************/
 .header-wraper{
-    background:url("https://wallpapercave.com/wp/wp3539903.jpg");
+    background:url("./media/hero_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -251,9 +251,8 @@ height: auto;
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 5rem;
-    
 }
 /******Research Container******/
 .research_container{

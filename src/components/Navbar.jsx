@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 import { BrowserRouter as Router } from "react-router-dom";
-import Profile from "../media/Profile.jpg";
+import Profile from "../media/my_photo.jpeg";
 
 export default function Navbar() {
   return (
@@ -96,19 +96,6 @@ export default function Navbar() {
                   duration={500}
                 >
                   Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  activeClass="active"
-                  to="research"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                >
-                  Research
                 </Link>
               </li>
               <li className="nav-item">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
 export default function Header() {
@@ -8,10 +8,11 @@ export default function Header() {
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ["Let's build something great."],
+      strings: ["Building production AI systems.", "Engineering data at healthcare scale.", "Let's build something great."],
       typeSpeed: 40,
       backSpeed: 50,
       loop: true,
+      showCursor: false,
     });
     return () => typed.destroy();
   }, []);
@@ -19,11 +20,11 @@ export default function Header() {
   useEffect(() => {
     async function fetchQuote() {
       try {
-        const res = await fetch('https://api.realinspire.live/v1//quotes/random');
+        const res = await fetch('https://dummyjson.com/quotes/random');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        setQuote(data[0].content || 'Unknown quote');
-        setAuthor(data[0].author || 'Unknown author');
+        setQuote(data.quote || 'Unknown quote');
+        setAuthor(data.author || 'Unknown author');
       } catch (err) {
         console.error('Quote fetch error:', err);
         setQuote('Failed to load quote.');

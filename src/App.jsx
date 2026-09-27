@@ -8,7 +8,6 @@ import Header from "./components/Header";
 import Timeline from "./components/Timeline";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Research from "./components/Research";
 import Contact from "./components/Contact";
 
 var width = window.innerWidth;
@@ -62,7 +61,6 @@ function App() {
       <About />
       <Timeline />
       <Projects />
-      <Research />
       <Contact />
     </>
   );

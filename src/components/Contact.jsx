@@ -54,8 +54,25 @@ const Contact=()=>{
             </div>
         </div>
 
+        <div className="row">
+          <div className="col-25">
+            <label>Newsletter</label>
+          </div>
+          <div className="col-75">
+            <label style={{ fontWeight: "normal", display: "flex", alignItems: "center", gap: "0.5rem", cursor: "pointer" }}>
+              <input
+                type="checkbox"
+                name="newsletter_subscribe"
+                value="yes"
+                style={{ width: "auto" }}
+              />
+              Subscribe me to <strong>AI Engineering Digest</strong> — daily AI engineering content (optional)
+            </label>
+          </div>
+        </div>
+
         <div className="row" id="center_submit">
-          <input  type="submit" value="Submit"/>        
+          <input  type="submit" value="Submit"/>
         </div>
       </form>
     </div>

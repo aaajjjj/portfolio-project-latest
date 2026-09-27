@@ -5,18 +5,41 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaCode, FaJava } from "react-icons/fa";
 import { DiPython } from "react-icons/di";
-import { GiAutoRepair } from "react-icons/gi";
 
 export default function Timeline() {
   return (
     <div id="job">
-      <h2 className="timeline_header">Past and recent work experiences</h2>
+      <h2 className="timeline_header">Work Experience</h2>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="Jul 2024 - Present"
+          date="Jul 2026 - Present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaCode />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Senior Software Engineer
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Wellmark Blue Cross Blue Shield, Full-time
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
+          <p>
+            a. Developing FHIR R4 APIs for CMS Interoperability and Prior Authorization compliance (CMS-0057-F) — Patient Access, Provider Access, and Payer-to-Payer data exchange ahead of the January 2027 enforcement deadline.
+          </p>
+          <p>
+            b. Mapping payer claims, clinical, and member enrollment data to US Core and Da Vinci profiles, validating resource conformance against implementation guide requirements.
+          </p>
+          <p>
+            c. Partnering with compliance, legal, and product stakeholders to translate federal regulatory requirements into API specifications and delivery milestones.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Jun 2024 - Jul 2026"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaCode />}
         >
@@ -24,33 +47,20 @@ export default function Timeline() {
             Software Engineer – Enterprise Data Services
           </h3>
           <h5 className="vertical-timeline-element-subtitle">
-            Wellmark Blue Cross and Blue Shield, Full-time
+            Wellmark Blue Cross Blue Shield, Full-time
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
           <p>
-            a. Designed and deployed the "Product Quote Flexibility (PQF)"
-            system using AWS CDK, Lambda, SQS, SNS, and API Gateway — replacing
-            legacy quoting platforms with modular, serverless architecture.
+            a. Rearchitected a monolithic stored-procedure chain into a modular, event-driven ELT pipeline for PBM data — cutting migration cycles from 18+ months to on-demand.
           </p>
           <p>
-            b. Created plan data ingestion workflows triggered from external
-            platforms, storing structured data for queryable access via REST
-            APIs with fallback support for legacy APIs.
+            b. Captured 99% of group membership deltas in real time and built a full-file reconciliation API for CVS pre-submission validation against Facets.
           </p>
           <p>
-            c. Implemented 100% unit test coverage with Jest and enabled
-            integration testing using LocalStack to validate service behavior
-            pre-deployment.
+            c. Delivered a versioned enterprise benefit API achieving sub-second response times against a 10-second legacy baseline while maintaining backward compatibility for 24/7 member and provider access.
           </p>
           <p>
-            d. Managed schema migrations with Flyway to maintain
-            version-controlled database infrastructure and eliminate manual
-            intervention.
-          </p>
-          <p>
-            e. Spearheading development of "Enterprise Group Service" — a
-            real-time, event-driven ELT pipeline that transforms legacy batch
-            workflows using S3 triggers, Kysely, and reconciliation APIs.
+            d. Consolidated redundant benefit implementations across teams into a single reusable service — eliminating duplicate engineering effort and establishing a single source of truth.
           </p>
         </VerticalTimelineElement>
 
@@ -69,13 +79,13 @@ export default function Timeline() {
           <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
           <p>
             a. Built a phishing detection Outlook plugin with XML and
-            JavaScript; cut reporting time by 30%.
+            JavaScript; significantly reduced manual reporting time for suspicious emails.
           </p>
           <p>
             b. Deployed Python-based compliance scripts via Terraform to
             automate cloud resource checks.
           </p>
-         <p>c. Integrated log analysis pipelines to improve response time and reduce manual threat triaging by 30%.</p>
+         <p>c. Integrated log analysis pipelines to improve response time and meaningfully reduce manual threat triaging effort.</p>
           <p>d. Enabled role-based audit and visibility over cloud infrastructure by automating policy checks and reporting pipelines.</p>
         </VerticalTimelineElement>
 
@@ -149,7 +159,7 @@ export default function Timeline() {
             Wellmark Blue Cross and Blue Shield, Part-time
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
-        <p>a. Automated AWS resource provisioning with reusable templates, reducing cloud deployment time by 7%.</p>
+        <p>a. Automated AWS resource provisioning with reusable templates, improving cloud deployment consistency and speed across teams.</p>
           <p>b. Built Python scripts to streamline cloud build and deployment pipelines across multiple teams.</p>
           <p>c. Managed SSL/TLS certificate renewals across AWS and on-prem environments with 0% downtime.</p>
           <p>d. Partnered with DevOps teams to optimize infrastructure workflows and incident tracking.</p>
@@ -193,24 +203,6 @@ export default function Timeline() {
           <p>d. Received 90%+ student approval for effective and supportive instruction.</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="Aug 2020 - May 2021"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<GiAutoRepair />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Student Tech Support
-          </h3>
-          <h5 className="vertical-timeline-element-subtitle">
-            Drake University, Part-time
-          </h5>
-          <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
-          <p>a. Provided IT support to students and faculty, achieving over 95% satisfaction in service feedback.</p>
-          <p>b. Collaborated with senior techs to troubleshoot and resolve system-wide issues.</p>
-          <p>c. Documented support processes to improve team onboarding and reduce resolution time.</p>
-          <p>d. Mentored new hires and contributed to maintaining high service reliability standards.</p>
-        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );

@@ -79,13 +79,13 @@ export default function Timeline() {
           <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
           <p>
             a. Built a phishing detection Outlook plugin with XML and
-            JavaScript; cut reporting time by 30%.
+            JavaScript; significantly reduced manual reporting time for suspicious emails.
           </p>
           <p>
             b. Deployed Python-based compliance scripts via Terraform to
             automate cloud resource checks.
           </p>
-         <p>c. Integrated log analysis pipelines to improve response time and reduce manual threat triaging by 30%.</p>
+         <p>c. Integrated log analysis pipelines to improve response time and meaningfully reduce manual threat triaging effort.</p>
           <p>d. Enabled role-based audit and visibility over cloud infrastructure by automating policy checks and reporting pipelines.</p>
         </VerticalTimelineElement>
 
@@ -159,7 +159,7 @@ export default function Timeline() {
             Wellmark Blue Cross and Blue Shield, Part-time
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Des Moines, IA</h6>
-        <p>a. Automated AWS resource provisioning with reusable templates, reducing cloud deployment time by 7%.</p>
+        <p>a. Automated AWS resource provisioning with reusable templates, improving cloud deployment consistency and speed across teams.</p>
           <p>b. Built Python scripts to streamline cloud build and deployment pipelines across multiple teams.</p>
           <p>c. Managed SSL/TLS certificate renewals across AWS and on-prem environments with 0% downtime.</p>
           <p>d. Partnered with DevOps teams to optimize infrastructure workflows and incident tracking.</p>

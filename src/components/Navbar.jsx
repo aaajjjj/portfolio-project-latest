@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 import { BrowserRouter as Router } from "react-router-dom";
-import Profile from "../media/Profile.jpg";
+import Profile from "../media/my_photo.jpeg";
 
 export default function Navbar() {
   return (

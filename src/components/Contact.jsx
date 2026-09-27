@@ -66,7 +66,7 @@ const Contact=()=>{
                 value="yes"
                 style={{ width: "auto" }}
               />
-              Subscribe me to <strong>AI Engineering Digest</strong> — weekly AI engineering content (optional)
+              Subscribe me to <strong>AI Engineering Digest</strong> — daily AI engineering content (optional)
             </label>
           </div>
         </div>

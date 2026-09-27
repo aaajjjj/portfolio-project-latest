@@ -27,9 +27,10 @@ export default function Projects() {
             <CardMedia
               component="img"
               alt="AI Engineering Digest newsletter preview"
-              height="240"
+              height="340"
               image={NewsletterPreview}
               title="AI Engineering Digest"
+              sx={{ objectFit: "contain", backgroundColor: "#fafafa" }}
             />
             <CardContent>
               <Typography gutterBottom variant="h3" component="h3">

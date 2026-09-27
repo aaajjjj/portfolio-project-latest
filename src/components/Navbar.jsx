@@ -102,19 +102,6 @@ export default function Navbar() {
                 <Link
                   className="nav-link"
                   activeClass="active"
-                  to="research"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                >
-                  Research
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  activeClass="active"
                   to="contact"
                   spy={true}
                   smooth={true}

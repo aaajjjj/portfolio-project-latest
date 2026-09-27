@@ -12,6 +12,7 @@ export default function Header() {
       typeSpeed: 40,
       backSpeed: 50,
       loop: true,
+      showCursor: false,
     });
     return () => typed.destroy();
   }, []);

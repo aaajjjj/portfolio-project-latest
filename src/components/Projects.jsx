@@ -37,16 +37,15 @@ export default function Projects() {
                 AI Engineering Digest
               </Typography>
               <Typography variant="body2" color="text.primary" component="div" id="style_tasks">
-                An autonomous LLM pipeline that ingests RSS content, summarizes
-                via the OpenAI API, and delivers a curated daily digest to
-                subscribers.
+                A multi-agent LangGraph pipeline that reads ~170 AI news items a
+                day from 17 sources and emails the 10–15 most useful articles.
                 <ul>
-                  <li>RAG-based semantic deduplication with vector embeddings to filter redundant content across issues.</li>
-                  <li>Modular architecture separating ingestion, model invocation, and delivery for easy extension.</li>
-                  <li>Planning agentic evaluation workflows with LangGraph to score summary relevance and detect model drift.</li>
-                  <li>Scheduled via GitHub Actions for automated daily runs.</li>
+                  <li>Cost-aware AI funnel: a lightweight LLM triages every item, parallel agents read the shortlist in full, and a frontier model makes the final editorial picks.</li>
+                  <li>Semantic deduplication with vector embeddings and a persistent memory, so the same story from different outlets is merged and nothing repeats.</li>
+                  <li>Schema-validated outputs, retries and fallbacks on every LLM call; about 90 seconds and $0.05 per daily run.</li>
+                  <li>Scheduled daily on GitHub Actions, traced with LangSmith.</li>
                 </ul>
-                <strong>Tech:</strong> Python, OpenAI API, LangGraph, Vector DB, RAG, GitHub Actions
+                <strong>Tech:</strong> Python, LangGraph, OpenAI API, embeddings, LangSmith, GitHub Actions
               </Typography>
             </CardContent>
           </CardActionArea>

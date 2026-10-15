@@ -59,15 +59,11 @@ const Contact=()=>{
             <label>Newsletter</label>
           </div>
           <div className="col-75">
-            <label style={{ fontWeight: "normal", display: "flex", alignItems: "center", gap: "0.5rem", cursor: "pointer" }}>
-              <input
-                type="checkbox"
-                name="newsletter_subscribe"
-                value="yes"
-                style={{ width: "auto" }}
-              />
-              Subscribe me to <strong>AI Engineering Digest</strong> — daily AI engineering content (optional)
-            </label>
+            {/* Sign-ups go through /newsletter (Buttondown, with a confirmation email), not this form */}
+            <p style={{ margin: "0.5rem 0" }}>
+              Want the daily <strong>AI Engineering Digest</strong>?{" "}
+              <a href="/newsletter/">Subscribe here →</a>
+            </p>
           </div>
         </div>
 

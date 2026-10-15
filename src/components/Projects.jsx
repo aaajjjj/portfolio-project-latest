@@ -54,6 +54,9 @@ export default function Projects() {
             <Button size="small" color="primary" disabled>
               Private repo
             </Button>
+            <Button size="small" color="primary" href="/newsletter/">
+              Subscribe
+            </Button>
           </CardActions>
         </Card>
 

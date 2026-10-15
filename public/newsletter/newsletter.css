@@ -1,0 +1,120 @@
+/* Styles for the standalone newsletter pages (/newsletter, /newsletter/check-inbox, /newsletter/welcome).
+   Matches the main site: Roboto Slab headings, Raleway body, indigo + green accents. */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto+Slab:wght@700;800&display=swap");
+
+:root {
+  --bg: #0e1424;          /* deep navy, like the hero photo */
+  --panel: #161e33;
+  --text: #e8ecf5;
+  --muted: #a9b3c8;
+  --line: #2a3452;
+  --indigo: #5c6bc0;      /* lighter take on the site's #3f51b5 so it reads on dark */
+  --green: #06ce92;       /* the site's hover accent */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.65 "Raleway", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 20px 64px;
+}
+
+a { color: var(--green); }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+
+.back { font-size: 14px; color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--text); }
+
+h1, h2 {
+  font-family: "Roboto Slab", Georgia, serif;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+h1 { font-size: 42px; font-weight: 800; margin: 28px 0 12px; }
+h2 { font-size: 22px; font-weight: 700; margin: 40px 0 12px; }
+
+.lead { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
+
+/* The sign-up box */
+.signup {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+}
+.signup label { display: block; font-weight: 600; margin-bottom: 8px; }
+.signup .row { display: flex; gap: 10px; flex-wrap: wrap; }
+.signup input[type="email"] {
+  flex: 1 1 240px;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #0b1020;
+  color: var(--text);
+  font: inherit;
+}
+.signup button {
+  flex: 0 0 auto;
+  padding: 12px 22px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--green);
+  color: #052b20;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.signup button:hover { filter: brightness(1.08); }
+.signup .note { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+
+.promises {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  color: var(--muted);
+}
+.promises li::before { content: "✓ "; color: var(--green); }
+
+ul.points { padding-left: 20px; margin: 0; }
+ul.points li { margin-bottom: 8px; }
+
+figure { margin: 0; }
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; }
+
+footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Confirmation pages */
+.status { text-align: center; padding-top: 12vh; }
+.status .icon { font-size: 48px; }
+.status p { color: var(--muted); max-width: 52ch; margin: 0 auto 14px; }
+
+@media (max-width: 520px) {
+  h1 { font-size: 32px; }
+  .signup button { width: 100%; }
+}

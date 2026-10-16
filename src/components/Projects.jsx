@@ -13,7 +13,19 @@ import HackAwayHungerSchema from "../media/hack_away_hunger_schema.png";
 import mask_nomask from "../media/mask_nomask.png";
 import Covid_Iowa from "../media/Covid_Iowa.JPG";
 
-const cardSx = { maxWidth: 345, margin: 1, minWidth: "33%" };
+// Shared card style. On hover the card lifts slightly so it's clear it can be interacted with;
+// people who ask their system for reduced motion get the shadow only.
+const cardSx = {
+  maxWidth: 345,
+  margin: 1,
+  minWidth: "33%",
+  transition: "transform 0.2s ease, box-shadow 0.2s ease",
+  "&:hover": { transform: "translateY(-4px)", boxShadow: 6 },
+  "@media (prefers-reduced-motion: reduce)": {
+    transition: "box-shadow 0.2s ease",
+    "&:hover": { transform: "none", boxShadow: 6 },
+  },
+};
 
 export default function Projects() {
   return (
@@ -52,6 +64,9 @@ export default function Projects() {
           <CardActions>
             <Button size="small" color="primary" disabled>
               Private repo
+            </Button>
+            <Button size="small" color="primary" href="/newsletter/">
+              Subscribe
             </Button>
           </CardActions>
         </Card>

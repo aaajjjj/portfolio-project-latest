@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Engineering Digest · Ajal RC</title>
+  <meta name="description" content="A free daily email with the 10–15 applied-AI articles worth an engineer's time, picked by an AI pipeline I built. Unsubscribe in one click." />
+
+  <!-- Link preview on LinkedIn and other sites -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ajalrc.com/newsletter/" />
+  <meta property="og:title" content="AI Engineering Digest" />
+  <meta property="og:description" content="The 10–15 applied-AI articles worth an engineer's time, every day. Picked by an AI pipeline I built. Free, no ads, unsubscribe in one click." />
+  <meta property="og:image" content="https://www.ajalrc.com/newsletter/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/newsletter/newsletter.css" />
+</head>
+<body>
+  <main class="page">
+    <a class="back" href="/">← ajalrc.com</a>
+
+    <h1>AI Engineering Digest</h1>
+    <p class="lead">
+      I built an AI agent that reads around 170 AI news items every day and sends me only
+      the 10–15 worth an engineer's time. A few people asked to get it too, so here it is.
+    </p>
+
+    <!-- Buttondown's sign-up form: a plain HTML form, no JavaScript or API key.
+         After submitting, Buttondown sends a confirmation email (double opt-in). -->
+    <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/ajalrc456" method="post">
+      <label for="bd-email">Your email</label>
+      <div class="row">
+        <input type="email" name="email" id="bd-email" autocomplete="email" placeholder="you@example.com" required />
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="note">You'll get a confirmation email first. Nothing is sent until you click the link in it.</p>
+    </form>
+    <ul class="promises">
+      <li>Free</li>
+      <li>No ads</li>
+      <li>No open or click tracking</li>
+      <li>Unsubscribe in one click</li>
+    </ul>
+
+    <h2>What you get</h2>
+    <ul class="points">
+      <li><strong>One email a day</strong> with 10–15 articles on applied AI: agents, RAG, evals, and running LLMs in production.</li>
+      <li><strong>A short summary and a practical takeaway</strong> for each article, so you can decide in seconds what to read.</li>
+      <li><strong>Links to the original sources.</strong> No hype, no padding, no sponsored picks.</li>
+    </ul>
+
+    <h2>A recent issue</h2>
+    <figure>
+      <img src="/newsletter/sample.png" alt="Screenshot of a recent AI Engineering Digest email: articles grouped into sections, each with a title, source, read time, summary and takeaway." loading="lazy" />
+      <figcaption>Articles are grouped into sections, and the layout works on phones too.</figcaption>
+    </figure>
+
+    <h2>How it's made</h2>
+    <p>
+      Every day an AI pipeline I built pulls 17 sources, including TLDR AI, The Rundown,
+      Ben's Bites and engineering blogs. It removes duplicate stories, reads the most promising
+      articles in full, and picks the best of them against a written editorial rubric. Then it
+      sends the result to your inbox.
+    </p>
+
+    <h2>Your privacy</h2>
+    <p>
+      Your email address is stored by <a href="https://buttondown.com/legal/privacy" rel="noopener">Buttondown</a>,
+      the service that sends the newsletter, and is used only for this digest. It is never sold
+      or shared. Every issue has an unsubscribe link that removes you right away, and you can
+      reply to any issue to have your address deleted.
+    </p>
+
+    <footer>
+      By <a href="/">Ajal RC</a> · <a href="https://www.linkedin.com/in/rcaj/" rel="noopener">LinkedIn</a>
+      · Sent with <a href="https://buttondown.com/refer/ajalrc456" rel="noopener">Buttondown</a>
+    </footer>
+  </main>
+</body>
+</html>

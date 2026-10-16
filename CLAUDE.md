@@ -116,7 +116,7 @@ Plain static HTML in `public/newsletter/`, copied as-is by Vite and served by Ne
 | URL | File | Purpose |
 |---|---|---|
 | `/newsletter/` | `public/newsletter/index.html` | Sign-up page for AI Engineering Digest |
-| `/newsletter/check-inbox/` | `public/newsletter/check-inbox/index.html` | Shown after submitting (Buttondown "After subscribing" redirect) |
+| `/newsletter/thank-you/` | `public/newsletter/thank-you/index.html` | Shown after submitting: "check your inbox to confirm" (Buttondown "After subscribing" redirect) |
 | `/newsletter/welcome/` | `public/newsletter/welcome/index.html` | Shown after confirming (Buttondown "After confirming" redirect) |
 
 - Kept outside the React app on purpose: the site has no client-side routing, so a static page needs no router or Netlify redirect rules and can't break the main site.

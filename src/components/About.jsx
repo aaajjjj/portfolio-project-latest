@@ -32,7 +32,7 @@ export default function About() {
         <br />
         Lately I've been going deeper into AI: RAG pipelines, LLM APIs, and agentic
         workflows with LangGraph. I also publish{" "}
-        <strong>AI Engineering Digest</strong> — a daily newsletter curating the most
+        <a href="/newsletter/"><strong>AI Engineering Digest</strong></a> — a daily newsletter curating the most
         useful AI engineering content for engineers who ship to production, not just
         experiment.
         <br />

@@ -109,6 +109,23 @@ The contact form uses `data-netlify="true"` — Netlify handles form submissions
 
 ---
 
+## Newsletter sign-up pages (`/newsletter`)
+
+Plain static HTML in `public/newsletter/`, copied as-is by Vite and served by Netlify:
+
+| URL | File | Purpose |
+|---|---|---|
+| `/newsletter/` | `public/newsletter/index.html` | Sign-up page for AI Engineering Digest |
+| `/newsletter/thank-you/` | `public/newsletter/thank-you/index.html` | Shown after submitting: "check your inbox to confirm" (Buttondown "After subscribing" redirect) |
+| `/newsletter/welcome/` | `public/newsletter/welcome/index.html` | Shown after confirming (Buttondown "After confirming" redirect) |
+
+- Kept outside the React app on purpose: the site has no client-side routing, so a static page needs no router or Netlify redirect rules and can't break the main site.
+- The form posts to Buttondown (`https://buttondown.com/api/emails/embed-subscribe/ajalrc456`). It needs no API key or JavaScript; Buttondown handles double opt-in and unsubscribes.
+- `sample.png` (screenshot of a real issue) and `og-image.png` (LinkedIn/social preview) live next to the page.
+- The contact form no longer has a newsletter checkbox; it links to `/newsletter/` instead.
+
+---
+
 ## Historic upgrade notes
 
 ### July 2025 — Vite migration + full stack upgrade
